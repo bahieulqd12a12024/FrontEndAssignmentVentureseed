@@ -54,7 +54,7 @@
       </div>
     </div>
 
-    <div class="w-6 h-6 flex justify-center px-6 py-3 items-center relative">
+    <div class="block lg:hidden w-6 h-6 flex justify-center px-6 py-3 items-center relative">
       <div
         class="w-3 h-0 left-[4px] top-[5px] absolute outline outline-[1.50px] outline-offset-[-0.75px] outline-white"
       ></div>

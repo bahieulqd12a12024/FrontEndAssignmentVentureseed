@@ -103,6 +103,12 @@
         <img src="/homepage/hero/dullImage.png" class="relative" />
         <img src="/homepage/hero/obviousImage.png" class="absolute inset-0" />
       </div>
+
+      <div
+        class="block lg:hidden relative mx-auto justify-center mt-[154px]"
+      >
+        <img src="/homepage/hero/youtubeScreen.png" class="absolute inset-0" />
+      </div>
     </div>
   </section>
 </template>

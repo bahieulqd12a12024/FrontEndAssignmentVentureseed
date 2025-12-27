@@ -7,7 +7,12 @@
 
       <div class="mt-12 grid items-center gap-12 lg:grid-cols-2">
         <div class="space-y-4">
-          <h3 class="text-3xl font-semibold text-neutral-900 font-['Inter'] self-stretch">
+
+          <h3 class="block lg:hidden text-indigo-800 text-2xl font-bold text-neutral-900 self-stretch">
+            Your AI Dart App's Control Panel For Feature Releases
+          </h3>
+
+          <h3 class="hidden lg:block text-3xl font-semibold text-neutral-900 font-['Inter'] self-stretch">
             Your AI Dart App's Control Panel For Feature Releases
           </h3>
 
