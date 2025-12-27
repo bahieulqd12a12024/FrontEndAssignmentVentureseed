@@ -105,9 +105,9 @@
       </div>
 
       <div
-        class="block lg:hidden relative mx-auto justify-center mt-[154px]"
+        class="block lg:hidden relative flex justify-center"
       >
-        <img src="/homepage/hero/youtubeScreen.png" class="absolute inset-0" />
+        <img src="/homepage/hero/youtubeScreen.png" class="max-w-sm" />
       </div>
     </div>
   </section>

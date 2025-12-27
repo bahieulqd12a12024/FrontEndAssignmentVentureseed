@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-slate-100 py-12 sm:py-16">
+  <section class="hidden lg:block bg-slate-100 py-12 sm:py-16">
     <div class="mx-auto max-w-6xl px-6">
       <h2 class="text-center text-xl font-bold text-indigo-950 sm:text-2xl">
         Plans Built For Every Stage Of Growth
@@ -42,4 +42,45 @@
       </div>
     </div>
   </section>
+
+  <section class="block lg:hidden px-4 py-10">
+    <h2 class="mb-6 text-center text-xl font-semibold text-indigo-950">
+      Control & Power-focused
+    </h2>
+
+    <div class="mx-auto max-w-sm rounded-2xl bg-gradient-to-b from-indigo-800 to-slate-900 p-6 text-white shadow-xl">
+      <div class="mb-4 flex items-center justify-between">
+        <span class="rounded-full bg-amber-400 px-3 py-1 text-sm font-semibold text-neutral-900">
+          Popular
+        </span>
+        <span class="-rotate-12 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-indigo-800">
+          Billed annually
+        </span>
+      </div>
+
+      <h3 class="mb-4 text-lg font-semibold">Enhance Plan</h3>
+
+      <div class="mb-6 flex items-end gap-2">
+        <span class="text-4xl font-bold">$149</span>
+        <span class="mb-1 text-sm opacity-80">/month</span>
+      </div>
+
+      <ul class="mb-6 space-y-3 text-sm leading-relaxed">
+        <li>✓ Multi-environment support (Dev / Staging / Prod)</li>
+        <li>✓ Unlimited feature flags and projects</li>
+        <li>✓ Advanced targeting rules with custom attributes</li>
+        <li>✓ Environment-specific flags</li>
+        <li>✓ Real-time streaming updates (WebSocket / gRPC)</li>
+        <li>✓ Analytics hooks (flag usage tracking)</li>
+        <li>✓ Built-in A/B testing / experimentation dashboard</li>
+        <li>✓ Audit logs (90-day retention + export)</li>
+        <li>✓ API access with multiple keys & custom roles</li>
+      </ul>
+
+      <button class="w-full rounded-lg border border-white/80 py-3 text-sm font-semibold">
+        Subscribe
+      </button>
+    </div>
+  </section>
+
 </template>
