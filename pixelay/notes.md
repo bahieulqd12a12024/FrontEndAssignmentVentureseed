@@ -1,0 +1,3 @@
+- The background is larger in hero section of my design than original design.
+- The fonts have not been fully configured yet.
+- Footer in mobile screen is still 90% accurate compared to original design. 
